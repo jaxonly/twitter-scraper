@@ -30,6 +30,7 @@ type Scraper struct {
 	userAgent      string
 	searchMode     SearchMode
 	wg             sync.WaitGroup
+	Profile        profile
 }
 
 // SearchMode type
